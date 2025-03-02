@@ -1,6 +1,6 @@
 // BEGIN-TODO(Name)
 // Please, before you do anything else, add your names here:
-// Group <Group number>
+// Group 69
 // Jazman Mohamad Ismail: 1923072
 // Arhan Chhabra: 1940198
 //
