@@ -1,3 +1,13 @@
+// BEGIN-TODO(Name)
+// Please, before you do anything else, add your names here:
+// Group 69
+// Jazman Mohamad Ismail: 1923072
+// Arhan Chhabra: 1940198
+//
+// Go get 'em!
+//
+// END-TODO(Name)
+
 method terminate_x_y(N: nat)
 {
   var x, y := 0, 0;
