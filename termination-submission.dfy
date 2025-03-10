@@ -13,7 +13,12 @@ method terminate_x_y(N: nat)
   var x, y := 0, 0;
   while x != 0 || y != N
 // BEGIN-TODO(Termination)
-// Add your termination proof here.
+  // Note that order of decreases clauses matter here (lexicographical orderings)
+  decreases  N - y
+  decreases x
+  invariant 0 <= y <= N
+  invariant 0 <= x <= N
+
 // END-TODO(Termination)
   {
     if
