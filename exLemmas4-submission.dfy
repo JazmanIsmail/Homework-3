@@ -53,14 +53,14 @@ lemma MultCommutative(x: nat, y: nat)
     MultCommutative(x, y - 1);
     // Inductive hypothesis: Mult(x - 1, y) == Mult(y, x - 1)
     MultCommutative(x - 1, y);
-    // Now prove Mult(x, y) == Mult(y, x)
+    // Proving Mult(x, y) == Mult(y, x):
     calc {
       Mult(x, y);
       == // Definition of Mult 
       x + Mult(x, y - 1);
       == // Inductive hypothesis: Mult(x, y - 1) == Mult(y - 1, x) 
       x + Mult(y - 1, x);
-      == // Definition of Mult (reversed) 
+      == // Definition of Mult (but now reversed)
       Mult(y, x);
     }
   }
